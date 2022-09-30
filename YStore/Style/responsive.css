@@ -1,0 +1,352 @@
+@media (max-width: 1263px) {
+    header, main, footer {
+         max-width: 1024px;
+         overflow-x: hidden;
+        /*176*/
+          /*220*/
+    }
+
+    .logo{
+        margin-left: 25px;
+        font-size: 29px;
+    }
+
+    .search{
+        width: 540px;
+    }
+
+    .fp{
+        width: 450px;
+        height: 400px;
+    }
+
+    .crie{
+        margin: 75px;
+    }
+
+    .criet{
+        font-size: 32px;
+    }
+
+    .criep{
+        font-size: 15px;
+    }
+
+    .marcas{
+        width: 245px;
+        height: 280px;
+    }
+
+    .clube{
+        margin-left: -85px;
+    }
+
+    .foot{
+        display: flex;
+        width: 300px;
+        padding: 20px;
+    }
+
+    .extra ul li{
+        display: flex;
+        font-size: 14px;
+    }
+
+    .direitos{
+        padding: 30px 0 5px 0;
+
+    }
+}
+
+@media (max-width: 984px) {
+    header, main, footer {
+         max-width: 808px;
+         overflow-x: hidden;
+        /*176*/
+          /*220*/
+    }
+
+    .logo{
+        margin-left: 23px;
+        font-size: 28px;
+    }
+
+    .search{
+        width: 345px;
+    }
+
+    .encontre{
+        font-size: 28px;
+    }
+
+    .fp{
+        width: 350px;
+        height: 300px;
+    }
+
+    .crie{
+        margin: 20px;
+    }
+
+    .criet{
+        font-size: 30px;
+    }
+
+    .criep{
+        font-size: 15px;
+    }
+
+    .marcas{
+        width: 200px;
+        height: 235px;
+        margin-left: 23px;
+    }
+
+    .clube{
+        margin-left: -80px;
+    }
+
+    .foot{
+        display: flex;
+        width: 300px;
+        padding: 5px;
+        margin-right: -60px;
+    }
+
+    .extra{
+        width: 808px;
+    }
+
+    .extra ul li{
+        display: flex;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .direitos{
+        padding: 30px 0 5px 0;
+
+    }
+}
+
+@media (max-width: 770px) {
+    header, main, footer {
+         max-width: 594px;
+         overflow-x: hidden;
+        /*176*/
+          /*220*/
+    }
+
+    
+
+    .logo{
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    .search{
+        width: 160px;
+    }
+
+    .encontre{
+        font-size: 25px;
+    }
+
+    .fp{
+        width: 250px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .crie{
+        margin: 0 5px;
+    }
+
+    .criet{
+        font-size: 27px;
+    }
+
+    .criep{
+        font-size: 13px;
+    }
+
+    .marcas{
+        width: 140px;
+        height: 175px;
+        margin-left: 18px;
+    }
+
+    .extra{
+        width: 593px;
+    }
+
+    .extra ul li{
+        display: flex;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 90px;
+    }
+
+    .clube{
+        width: 593px;
+        margin-left: 5px;
+    }
+
+    .foot{
+        display: flex;
+        width: 593px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .sobre{
+        margin-left: -50px;
+    }
+
+    .loja{
+
+    margin-left: -50px;
+
+    }
+
+    .contato{
+        margin-left: -50px;
+    }
+
+    .direitos{
+        margin: 0;
+        padding-top: 100px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    header, main, footer {
+         max-width: 500px;
+         overflow-x: hidden;
+        /*176*/
+          /*220*/
+    }
+
+    .logo{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .search{
+        width: 140px;
+    }
+
+    .icones{
+        margin-right: 20px;
+    }
+
+    ul li{
+        margin-left: 25px;
+    }
+
+    .fa-cart-arrow-down{
+        padding-left: 15px;
+    }
+
+    nav ul a{
+        font-size: 14px
+    }
+
+    .promo{
+        font-size: 11px;
+    }
+
+    .encontre{
+        font-size: 25px;
+    }
+
+    .foto-principal2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fp{
+        width: 440px;
+        height:350px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .crie{
+        width: 480px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .criet{
+        font-size: 32px;
+    }
+
+    .criep{
+        font-size: 15px;
+    }
+
+    .marcas .marcas{
+        margin: 100px 5px 0 9px;
+        padding: 0;
+    }
+
+    .extra{
+        width: 483px;
+    }
+
+    .extra ul li{
+        display: flex;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 90px;
+    }
+
+    .clube{
+        padding-top: 80px;
+        width: 350px;
+    }
+
+    .foot{
+        display: flex;
+        width: 390px;
+        justify-content: center;
+        margin-left: -35px;
+    }
+
+    .sobre{
+        margin-left: -40px;
+    }
+
+    .loja{
+
+    margin-left: -10px;
+
+    }
+
+    .contato{
+        margin-left: 0px;
+    }
+
+    .direitos{
+        margin: 0;
+        padding-top: 140px;
+    }
+}
+

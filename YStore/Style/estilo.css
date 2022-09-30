@@ -1,0 +1,422 @@
+:root{
+--roxo: #8a2be2;
+--branco: #ffffff;
+--hover: rgb(224, 224, 224);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body a:hover{
+    color: rgb(224, 224, 224);
+}
+
+header .container{
+    background-color: #8a2be2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65px;
+}
+
+.logo{ 
+    margin-left:30px;
+    padding-right: 10px;
+    font-family: 'Arial Black';
+    font-size: 32px;
+    font-weight: 100;
+    color:  var(--branco);
+}
+
+#search{
+  width:780px;
+  position: relative;
+  height: 50px;
+}
+
+.search {
+    background-color: #fff;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 50px;
+    width: 750px;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+
+.but { 
+    height: 24px;
+    width: 24px;
+    background:  url(../img/search.svg)  center no-repeat;
+    border: none;
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+.icones a{
+    color:  var(--branco);
+}
+
+.icones{
+    display: flex;
+    margin-right: 40px;
+}
+
+ul li{
+    margin-left: 30px;
+}
+
+.fa-cart-arrow-down{
+    border-left: 2px solid #fff;
+    padding-left: 35px;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--roxo);
+    height: 40px;
+}
+
+nav ul a{
+    color: var(--branco);
+    font-weight: 600;
+}
+
+.promo{
+    display: flex;
+    background-color: black;
+    color: #fff;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.foto-principal{
+    background-image: linear-gradient(rgba(0,0,0,.30)0%,rgba(0,0,0,.40)100%), url(../img/garotos2.jpeg);
+    background-size: cover;
+    background-position-y: 20%;
+    height: 600px;
+}
+
+.foto-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.foto-principal .c{
+    display: flex;
+    color: var(--branco);
+    margin: 10px;
+}
+
+.botao {
+    background-color: rgba(138, 43, 226, 0.50);
+    border-radius: 50px;
+    border: none;
+    color: var(--branco);
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 900;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: var(--roxo);
+}
+
+main .container{
+    background-color: var(--roxo);
+    color: var(--branco);
+}
+
+.encontre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 30px 0;
+    font-size: 32px;
+    font-weight: 1300;
+}
+
+.ca{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.item:hover{
+    border: 15px solid var(--roxo);
+    transition-property: var(--roxo);
+    transition: .2s linear .3s;
+}
+
+.item a{
+    display: block;
+    color:  var(--branco);
+    text-align: center;
+    font-size: 18px;
+}
+
+.foto-principal2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.fp{
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    margin: 0 0 50px 70px;
+
+}
+.crie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: 15%;
+    margin-bottom: 70px;
+}
+
+.foto-principal2 .botao {
+    background-color: rgba(255, 255, 255);
+    border-radius: 50px;
+    color: var(--roxo);
+    padding: 15px 30px;
+    margin-top: 40px;
+    font-size: 13px;
+    font-weight: 900;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.crie .botao:hover{
+   background-color: rgb(224, 224, 224);
+}
+
+.criet{
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.criep{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ca2{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-produtos{
+    margin-left: 7px;
+}
+
+.item2 a{
+    display: block;
+    color:  var(--branco);
+    font-size: 15px;
+    text-decoration:underline;
+}
+
+.preco{
+    font-weight: 800;
+    color: rgb(224, 224, 224);
+}
+
+.marcas{
+    display: flex;
+    height: 320px;
+    width: 350px;
+    align-items: center;
+    margin: 120px 35px 0 35px;
+    padding-bottom: 10px;
+}
+
+.marcas a{
+    color: var(--branco);
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.extra{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 90px;
+}
+
+.extra li{
+    margin-right: 90px;
+}
+
+.extra i{
+    padding-bottom: 8px;
+}
+
+.extra li a{
+    color:  var(--branco);
+}
+
+.extra li a:hover{
+    color: var(--hover);
+}
+
+footer .container{
+    display: flex;
+    background-color: rgb(117, 30, 199);
+    height: 200px;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 15px;
+    padding-top: 30px;
+    color: var(--branco);
+}
+
+
+footer .container a{
+    color: var(--branco);
+    font-size: 13px;
+}
+
+footer .container a:hover{
+    color: var(--hover);
+}
+
+.clube{
+    display: flex;
+    width: 350px;
+    font-weight: bolder;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 19px;
+}
+
+
+.clube .botao {
+    background-color: rgba(255, 255, 255);
+    border-radius: 50px;
+    color: var(--roxo);
+    padding: 12px 30px;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 900;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+    width: 145px;
+}
+
+.clube .botao:hover{
+    background-color: rgb(224, 224, 224);
+ }
+
+.redes{
+    display: flex;
+    padding: 20px 38px 20px 0;
+}
+
+.foot{
+    display: flex;
+    padding-top: 15px;
+}
+
+footer li{
+    padding-right: 15px;
+    text-align: center;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-weight: bolder;
+    margin-left: -150px;
+}
+
+.loja{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+.contato spam{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+footer input{
+    background-color: #fff;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 120px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+.direitos{
+    background-color: rgb(117, 30, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
